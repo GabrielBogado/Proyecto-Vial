@@ -281,7 +281,7 @@ textarea{
 
 .container_img-reg {
   display: flex;
-  margin: 3.2rem;
+  margin-top: 3.2rem;
   
 }
 
@@ -319,7 +319,7 @@ textarea{
 
 .container_img-pre {
   display: flex;
-  margin: 3.2rem;
+  margin-top: 3.2rem;
 }
 
 
@@ -352,8 +352,8 @@ textarea{
 
 .container_img-inf {
   display: flex;
-  flex-direction: column; /* LE AGREGO EL COLUMN AUNQUE NO ESTE PEDIDO PARA QUE NO SE VEA TAN MAL*/
-  margin: 3.2rem;
+  /* flex-direction: column; */ /* LE AGREGO EL COLUMN AUNQUE NO ESTE PEDIDO PARA QUE NO SE VEA TAN MAL*/
+  margin-top: 3.2rem;
 }
 
 
