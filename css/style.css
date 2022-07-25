@@ -15,7 +15,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(/media/pruebaback.jpg);
+    url(media/pruebaback.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -141,7 +141,7 @@ footer{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/media/hero.jpg");
+    url("media/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -183,7 +183,7 @@ footer{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/media/consejoCasco.jpg");
+    url("media/consejoCasco.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ footer{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/media/noche.jpg");
+    url("media/noche.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@ footer{
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/media/niños.jpg");
+    url("media/niños.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
