@@ -264,6 +264,7 @@ textarea{
 
 .colorRojo {
   color: red;
+  font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
@@ -309,6 +310,7 @@ textarea{
 }
 .colorAmarillo {
   color: yellow;
+  font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
@@ -340,8 +342,9 @@ textarea{
   display: flex;
   margin: 3.2rem;
 }
-.colorAzul {
-  color: blue;
+.colorVerde {
+  color: greenyellow;
+  font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
@@ -376,6 +379,7 @@ textarea{
 }
 .colorCyan {
   color: cyan;
+  font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
