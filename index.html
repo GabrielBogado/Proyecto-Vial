@@ -14,144 +14,172 @@
 
     <!--Agregando css-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Agregando Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div class="grid-padre">
-    <!--Barra de Navegacion entre los Sitios-->
-    <header>
-      <div class="container">
-        <div class="row">
-          <!--logo-->
-          <p class="logo_p">Prevencion <span class="colorLogo">Vial</span></p>
-          <nav class="nav">
-            <ul class="container_list">
-              <li><a href="index.html">Principal</a></li>
-              <li><a href="reglamentarias.html">Reglamentarias</a></li>
-              <li><a href="preventivas.html">Preventivas</a></li>
-              <li><a href="informativas.html">Informativas</a></li>
-              <li><a href="recomendaciones.html">Recomendaciones</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <!--Comienzo de Menu Principal-->
-    <main>
-      <!--Imagen Hero con titulo principal-->
-      <section id="hero">
+      <!--Barra de Navegacion entre los Sitios-->
+      <header>
         <div class="container">
-          <h1>
-            El momento de actuar es <span class="amarilloHoy">HOY</span>, quizas
-            mañana sea tarde
-          </h1>
-        </div>
-      </section>
-
-      <!--Comienzo Consejos para el visitante-->
-      <section id="container_consejo">
-        <div class="container">
-          <div class="moto">
-            <div class="consejo">
-              <h3>Utiliza casco siempre que vayas en moto</h3>
-              <form class="boton">
-                <a href="https://saludocupacional.corrientes.gob.ar/noticia/consejos-de-prevencion-en-la-conduccion-de-motocicletas">
-                  <input class="consejo__bottom" type="button" value="+Info" />
-                </a>
-              </form>
-            </div>
-          </div>
-
-          <div class="noche">
-            <div class="consejo">
-              <h3>
-                Si conducis de noche recorda: Disminuir la velocidad y aumentar
-                la atencion
-              </h3>
-              <form class="boton">
-                <a href="http://www.portalarodar.com.ar/nota-19_los-riesgos-de-la-conduccion-nocturna-">
-                  <input class="consejo__bottom" type="button" value="+Info" />
-                </a>
-              </form>
-            </div>
-          </div>
-
-          <div class="niños">
-            <div class="consejo">
-              <h3>
-                Tene en cuenta que si llevas niños, siempre deben ir asegurados
-                en el asiento trasero
-              </h3>
-              <form class="boton">
-                <a href="https://www.argentina.gob.ar/noticias/ahora-es-obligatorio-que-los-ninos-de-hasta-10-anos-viajen-en-la-sillita">
-                  <input class="consejo__bottom" type="button" value="+Info" />
-                </a>
-              </form>
-            </div>
+          <div class="row">
+            <!--logo-->
+            <p class="logo_p animate__animated animate__rubberBand">
+              Prevencion <span class="colorLogo">Vial</span>
+            </p>
+            <nav class="nav">
+              <ul class="container_list">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="reglamentarias.html">Reglamentarias</a></li>
+                <li><a href="preventivas.html">Preventivas</a></li>
+                <li><a href="informativas.html">Informativas</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
-      </section>
+      </header>
 
-      <!--Comienzo Formulario de Consulta/Contacto-->
-      <section id="container-formulario">
-        <div class="container formulario">
-          <fieldset class="espacio">
-            <legend>Formulario de Contacto</legend>
-            <label for="nombre"></label>
-            <input
-              type="text"
-              name="nombre"
-              id="nombre"
-              placeholder="Escriba su Nombre"
-            />
-            <br />
+      <!--Comienzo de Menu Principal-->
+      <main>
+        <!--Imagen Hero con titulo principal-->
+        <section id="hero">
+          <div class="container">
+            <h1>
+              El momento de actuar es <span class="amarilloHoy">HOY</span>,
+              quizas mañana sea tarde
+            </h1>
+          </div>
+        </section>
 
-            <label for="apellido"></label>
-            <input
-              type="text"
-              name="apellido"
-              id="apellido"
-              placeholder="Escriba su Apellido"
-            />
-            <br />
+        <!--Comienzo Consejos para el visitante-->
+        <section id="container_consejo">
+          <div class="container">
+            <div class="moto">
+              <div class="consejo">
+                <h3>Utiliza casco siempre que vayas en moto</h3>
+                <form class="boton">
+                  <a
+                    href="https://saludocupacional.corrientes.gob.ar/noticia/consejos-de-prevencion-en-la-conduccion-de-motocicletas"
+                  >
+                    <input
+                      class="consejo__bottom"
+                      type="button"
+                      value="+Info"
+                    />
+                  </a>
+                </form>
+              </div>
+            </div>
 
-            <label for="mail"></label>
-            <input
-              type="text"
-              name="mail"
-              id="email"
-              placeholder="Escriba su Mail"
-            />
-            <br />
-            <br />
+            <div class="noche">
+              <div class="consejo">
+                <h3>
+                  Si conducis de noche recorda: Disminuir la velocidad y
+                  aumentar la atencion
+                </h3>
+                <form class="boton">
+                  <a
+                    href="http://www.portalarodar.com.ar/nota-19_los-riesgos-de-la-conduccion-nocturna-"
+                  >
+                    <input
+                      class="consejo__bottom"
+                      type="button"
+                      value="+Info"
+                    />
+                  </a>
+                </form>
+              </div>
+            </div>
 
-            <label for="mensaje"></label>
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="30"
-              rows="10"
-              placeholder="Escriba su Mensaje"
-            ></textarea>
-            <form action="buttom"><input type="submit" value="Enviar" /></form>
-          </fieldset>
+            <div class="niños">
+              <div class="consejo">
+                <h3>
+                  Tene en cuenta que si llevas niños, siempre deben ir
+                  asegurados en el asiento trasero
+                </h3>
+                <form class="boton">
+                  <a
+                    href="https://www.argentina.gob.ar/noticias/ahora-es-obligatorio-que-los-ninos-de-hasta-10-anos-viajen-en-la-sillita"
+                  >
+                    <input
+                      class="consejo__bottom"
+                      type="button"
+                      value="+Info"
+                    />
+                  </a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Comienzo Formulario de Consulta/Contacto-->
+        <section id="container-formulario">
+          <div class="container formulario">
+            <fieldset class="espacio">
+              <legend>Formulario de Contacto</legend>
+              <label for="nombre"></label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Escriba su Nombre"
+              />
+              <br />
+
+              <label for="apellido"></label>
+              <input
+                type="text"
+                name="apellido"
+                id="apellido"
+                placeholder="Escriba su Apellido"
+              />
+              <br />
+
+              <label for="mail"></label>
+              <input
+                type="text"
+                name="mail"
+                id="email"
+                placeholder="Escriba su Mail"
+              />
+              <br />
+              <br />
+
+              <label for="mensaje"></label>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Escriba su Mensaje"
+              ></textarea>
+              <form action="buttom">
+                <input type="submit" value="Enviar" />
+              </form>
+            </fieldset>
+          </div>
+        </section>
+      </main>
+
+      <!--Comienzo Pie de Pagina-->
+      <footer>
+        <div class="container_footer">
+          <div class="relleno">
+            <p>TODOS LOS DERECHOS RESERVADOS</p>
+          </div>
+          <div class="footer__logo">
+            <p class="logo_p">
+              &copy;Prevencion <span class="colorLogo">Vial</span> 2022
+            </p>
+          </div>
         </div>
-      </section>
-    </main>
-
-    <!--Comienzo Pie de Pagina-->
-    <footer>
-      <div class="container_footer">
-        <div class="relleno">
-          <p>TODOS LOS DERECHOS RESERVADOS</p>
-        </div>
-        <div class="footer__logo">
-          <p class="logo_p">
-            &copy;Prevencion <span class="colorLogo">Vial</span> 2022
-          </p>
-        </div>
-      </div>
-    </footer>
+      </footer>
     </div>
   </body>
 </html>
