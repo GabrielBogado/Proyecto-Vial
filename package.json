@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-con-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielBogado/Proyecto-Vial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielBogado/Proyecto-Vial/issues"
+  },
+  "homepage": "https://github.com/GabrielBogado/Proyecto-Vial#readme"
+}
