@@ -278,6 +278,7 @@ textarea{
   border: 1px solid black;
   width: 100px;
   margin: 1rem;
+  border-radius: 15px;
 }
 
 .container_img-reg {
