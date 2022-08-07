@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* ----------------- AGREGANDO @IMPORT ----------------*/ 
-/* INICIO DE GLOBAL */
+/* ----------------- AGREGANDO @IMPORT ----------------*/ /* INICIO DE GLOBAL */
 * {
   padding: 0;
   margin: 0;
@@ -27,8 +26,6 @@ body {
 }
 
 /* FIN DE GLOBAL */
-
-
 /* INICIO ESTILO LOGO */
 .row .logo_p {
   font-size: 2.4rem;
@@ -44,8 +41,6 @@ body {
 }
 
 /* FIN ESTILO LOGO */
-
-
 /* INICIO DE NAVBAR */
 header {
   background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
@@ -80,8 +75,6 @@ ul li a:hover {
 }
 
 /* FIN DE NAVBAR */
-
-
 /* INICO FOOTER */
 footer {
   margin-top: 10px;
@@ -107,8 +100,6 @@ footer .container_footer {
 }
 
 /* FIN FOOTER */
-
-
 /* INICIO DE TITULOS */
 /*TITULO PRINCIPAL*/
 /* .container-titulo-reg */
@@ -186,8 +177,6 @@ h1 {
 }
 
 /* FIN DE TITULOS */
-
-
 /* INICIO CONTENEDORES DE TEXTO */
 .container-text {
   display: flex;
@@ -197,8 +186,6 @@ h1 {
 }
 
 /* FIN CONTENEDORES TEXTO */
-
-
 /* INICIO INDEX */
 #hero {
   display: flex;
@@ -292,8 +279,6 @@ textarea {
 }
 
 /* FIN DE INDEX */
-
-
 /* INICIO CONTENEDORES DE IMAGENES */
 /* IMAGENES REGLAMENTARIAS */
 .container_img-img img {
@@ -351,8 +336,6 @@ textarea {
 }
 
 /* FIN CONTENEDORES DE IMAGENES */
-
-
 /* INICIO DE GRID */
 .grid-padre {
   display: grid;
@@ -377,8 +360,6 @@ footer {
 }
 
 /* FIN GRID */
-
-
 /* INICIO DE MEDIAQUERIES */
 @media (max-width: 930px) {
   .grid-padre {
@@ -434,488 +415,6 @@ footer {
   }
 }
 /* FIN MEDIAQUERIES */
-
-
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  html {
-    font-size: 62.5%;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  body {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(../media/background/pruebaback.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-   */
-/*------------------INICIO NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
-/*PREPARACION DE NAVEGACION Y LOGO*/
-/* header {
-  background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  box-shadow: 0 5px 10px black; 
-}
-*/
-/*   .row .logo_p {
-    font-size: 2.4rem;
-    color: white;
-    font-weight: bold;
-    padding: 2rem 2.8rem 0 0;
-    display: flex;
-    text-shadow: 10px 5px 10px black;
-  }
-
-  .colorLogo {
-    color: yellow;
-  }
-   */
-/*   .container_list {
-    list-style: none;
-    display: flex;
-    margin: 2.4rem 2.8rem;
-
-  } */
-/*   ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: bold;
-  }
-
-  ul li a:hover {
-    color: yellow;
-  }
-
-  ul li {
-    margin-left: 1rem;
-  } */
-/*   ul{
-    list-style: none;
-    display: flex;
-    margin: 2.4rem 2.8rem;
-    li{
-        margin-left: 1rem;
-        a{
-            text-decoration: none;
-            color: white;
-            font-size: 1.6rem;
-            font-weight: bold;
-
-            &:hover{
-                color: yellow;
-            }
-        }
-    }
-  }
-
-  .row {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-  }
-   */
-/*FOOTER*/
-/* footer{
-  margin-top: 10px;
-}
-
-.container_footer {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.footer__logo .logo_p {
-  color: white;
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-shadow: 0 5px 10px black;
-}
- */
-/*   .relleno p {
-    color: white;
-    font-size: 1.6rem;
-    padding-right: 1.6rem;
-  } */
-/* .relleno{
-  p{
-      color: white;
-      font-size: 1.6rem;
-      padding-right: 1.6rem;
-  }
-} */
-/*------------------FIN NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
-/*------------------INICIO TEXTO GENERAL----------------------*/
-/*   .container-text {
-    display: flex;
-    color: white;
-    margin: 3.2rem;
-    font-size: 2rem;
-  } */
-/*------------------FIN TEXTO GENERAL----------------------*/
-/*------------------INICIO PREPARARCION DE PAGINA PRINCIPAL----------------------*/
-/*PREPARACION DE HERO Y TEXTO PRINCIPAL*/
-/*   #hero {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 90vh;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url(../media/img-index/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-
-  #hero h1 {
-    color: white;
-    font-size: 4.8rem;
-  }
-
-  .amarilloHoy {
-    color: yellow;
-    display: inline;
-  }
-
-  /*CONSEJOS*/
-/*
-#container_consejo {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.consejo {
-  height: 70vh;
-  width: 90%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  margin: 1.6rem;
-  font-size: 3rem;
-}
-
-.moto {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/consejoCasco.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.noche {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/noche.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.niños {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/niños.jpg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.consejo__bottom {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-/*FORMULARIO*/
-/*
-#container-formulario {
-  display: flex;
-}
-
-legend {
-  font-size: 1.5rem;
-  color: yellow;
-}
-
-.formulario input {
-  line-height: 1.5;
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-
-textarea{
-  font-size: 1.5rem;
-}
-
-.espacio {
-  padding-left: 1.6rem;
-}
- */
-/*------------------FIN PREPARARCION DE PAGINA PRINCIPAL----------------------*/
-/*  /*------------------INICIO PREPARARCION DE REGLAMENTARIAS----------------------*/
-/*TITULO PRINCIPAL*/
-/* .container-titulo-reg */
-/*
-h1 {
-  color: white;
-  font-weight: bold;
-  font-size: 4rem;
-}
-
-.container-titulo-reg {
-  display: flex;
-  margin: 3.2rem;
-}
-
-.colorRojo {
-  color: red;
-  font-weight: bold;
-} */
-/*TEXTO DESCRIPTIVO*/
-/*CONTENEDOR IMAGEN*/
-/*   .container_img-img img{
-    background-color: white;
-    border: 1px solid black;
-    width: 100px;
-    margin: 1rem;
-    border-radius: 15px;
-  }
-
-  .container_img-reg {
-    display: flex;
-    margin-top: 3.2rem;
-
-  }
-
-  .container_img-img{
-    display: flex;
-    flex-wrap: wrap;
-
-  } */
-/*------------------FIN PREPARARCION DE REGLAMENTARIAS----------------------*/
-/*------------------INICIO PREPARARCION DE PREVENTIVAS----------------------*/
-/*TITULO PRINCIPAL*/
-/* .container-titulo-pre */
-/*   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
-  }
-
-  .container-titulo-pre {
-    display: flex;
-    margin: 3.2rem;
-  }
-  .colorAmarillo {
-    color: yellow;
-    font-weight: bold;
-  }
-   */
-/*TEXTO DESCRIPTIVO*/
-/*CONTENEDOR IMAGEN*/
-/*  .container_img-pre {
-   display: flex;
-   margin-top: 3.2rem;
- }
-  */
-/*------------------FIN PREPARARCION DE PREVENTIVAS----------------------*/
-/*------------------INICIO PREPARARCION DE INFORMATIVAS----------------------*/
-/*TITULO PRINCIPAL*/
-/* .container-titulo-inf */
-/*   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
-  }
-
-  .container-titulo-inf {
-    display: flex;
-    margin: 3.2rem;
-  }
-  .colorVerde {
-    color: greenyellow;
-    font-weight: bold;
-  } */
-/*TEXTO DESCRIPTIVO*/
-/*CONTENEDOR IMAGEN*/
-/*   .container_img-inf {
-    display: flex;
-    /* flex-direction: column; */ /* LE AGREGO EL COLUMN AUNQUE NO ESTE PEDIDO PARA QUE NO SE VEA TAN MAL*/
-/*margin-top: 3.2rem;
-} */
-/*------------------FIN PREPARARCION DE INFORMATIVAS----------------------*/
-/*------------------INICIO PREPARARCION DE RECOMENDACIONES----------------------*/
-/*TITULO PRINCIPAL*/
-/* .container-titulo-reco */
-/*   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
-  }
-
-  .container-titulo-reco {
-    display: flex;
-    margin: 3.2rem;
-  }
-  .colorCyan {
-    color: cyan;
-    font-weight: bold;
-  } */
-/*TEXTO DESCRIPTIVO*/
-/*CONTENEDOR IMAGEN*/
-/*   .container_img-reco {
-    display: flex;
-    margin: 3.2rem;
-  }
-  .img-consejo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .img-consejo img{
-   width: 70%;
-   height: 340px;
-   padding-top: 2rem;
-  }
-  .img-consejo h3{
-    color: white;
-    font-size: 3rem;
-  }
-   */
-/*------------------FIN PREPARARCION DE RECOMENDACIONES----------------------*/
-/* -------------------INICIO CSS GRID----------------------- */
-/*  .grid-padre{
-   display: grid;
-   grid-template-areas: 
-   "header"
-   "main"
-   "footer"
-   ;
-   grid-template-rows: 60px auto 50px;
-   grid-template-columns: auto;
-   height: auto;
- }
-
- header{
-   grid-area: header;
- }
-
- main{
-   grid-area: main;
- }
-
- footer{
-   grid-area: footer;
-   background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
-   justify-content: center;
-
- } */
-/* @media(max-width:930px){
-  .grid-padre{
-    grid-template-rows: auto auto 50px ;
-  }
-  header{
-    position: inherit;
-  }
-
-  ul li{
-    margin-top: 10px;
-  }
-
-  .container_list{
-    display: block;
-  }
-
-  .row .logo_p{
-    display: block;
-    padding: 0;
-    align-self: center;
-  }
-
-  .row{
-    display: flex;
-    justify-content: space-evenly;
-
-  }
-
-  .consejo{
-    font-size: 2rem;
-  }
-
-  .container{
-    width: 90%;
-  }
-
-  .img-consejo img{
-    width: 100%;
-    height: auto;
-  }
-
-  .texto-lluvia h3{
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .formulario input{
-    margin-bottom: 10px;
-    font-size: 1.6rem;
-  }
-  textarea{
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width:500px){
-
-  .row{
-    padding-top: 1rem;
-    display: block;
-  }
-  h1{
-    font-size: 3rem;
-  }
-
-}
- */
+/* FIN IMPORTS */
 
 /*# sourceMappingURL=style.css.map */
