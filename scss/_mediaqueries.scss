@@ -1,0 +1,73 @@
+/* INICIO DE MEDIAQUERIES */
+
+@media(max-width:930px){
+    .grid-padre{
+      grid-template-rows: auto auto 50px ;
+    }
+    header{
+      position: inherit;
+    }
+  
+    ul li{
+      margin-top: 10px;
+    }
+  
+    .container_list{
+      display: block;
+    }
+  
+    .row .logo_p{
+      display: block;
+      padding: 0;
+      align-self: center;
+    }
+    
+    .row{
+      display: flex;
+      justify-content: space-evenly;
+  
+    }
+  
+    .consejo{
+      font-size: 2rem;
+    }
+  
+    .container{
+      width: 90%;
+    }
+  
+    .img-consejo img{
+      width: 100%;
+      height: auto;
+    }
+  
+    .texto-lluvia h3{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    .formulario input{
+      margin-bottom: 10px;
+      font-size: 1.6rem;
+    }
+    textarea{
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width:500px){
+    
+    .row{
+      padding-top: 1rem;
+      display: block;
+    }
+    h1{
+      font-size: 3rem;
+    }
+  
+  }
+  
+  /* FIN MEDIAQUERIES */
+
+
+  

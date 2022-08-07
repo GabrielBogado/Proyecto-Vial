@@ -1,0 +1,33 @@
+/* INICIO DE GRID */
+
+.grid-padre{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-rows: 60px auto 50px;
+    grid-template-columns: auto;
+    height: auto;
+  }
+  
+  header{
+    grid-area: header;
+  }
+  
+  main{
+    grid-area: main;
+  }
+  
+  footer{
+    grid-area: footer;
+    background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
+    justify-content: center;
+    
+  }
+
+  /* FIN GRID */
+
+
+  

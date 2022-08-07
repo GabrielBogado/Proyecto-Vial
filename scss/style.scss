@@ -1,4 +1,17 @@
-* {
+/* ----------------- AGREGANDO @IMPORT ----------------*/
+@import "global";
+@import "estiloLogo";
+@import "navbar";
+@import "footer";
+@import "titulos";
+@import "contenedorTexto";
+@import "index";
+@import "contenedorImagenes";
+@import "grid";
+@import "mediaqueries";
+
+
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -27,20 +40,22 @@
     margin: 0 auto;
     max-width: 1200px;
   }
-  
+   */
+
   /*------------------INICIO NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
   
   /*PREPARACION DE NAVEGACION Y LOGO*/
   
-  header {
+  /* header {
     background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
     position: sticky;
     top: 0;
     z-index: 5;
-    box-shadow: 0 5px 10px black;
+    box-shadow: 0 5px 10px black; 
   }
+  */
   
-  .row .logo_p {
+/*   .row .logo_p {
     font-size: 2.4rem;
     color: white;
     font-weight: bold;
@@ -52,7 +67,7 @@
   .colorLogo {
     color: yellow;
   }
-  
+   */
 /*   .container_list {
     list-style: none;
     display: flex;
@@ -75,7 +90,7 @@
     margin-left: 1rem;
   } */
 
-  ul{
+/*   ul{
     list-style: none;
     display: flex;
     margin: 2.4rem 2.8rem;
@@ -99,10 +114,10 @@
     text-align: center;
     justify-content: space-between;
   }
-  
+   */
   /*FOOTER*/
   
-  footer{
+  /* footer{
     margin-top: 10px;
   }
   
@@ -120,31 +135,31 @@
     font-weight: bold;
     text-shadow: 0 5px 10px black;
   }
-  
+   */
 /*   .relleno p {
     color: white;
     font-size: 1.6rem;
     padding-right: 1.6rem;
   } */
 
-  .relleno{
+  /* .relleno{
     p{
         color: white;
         font-size: 1.6rem;
         padding-right: 1.6rem;
     }
-  }
+  } */
   
   /*------------------FIN NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
   
   /*------------------INICIO TEXTO GENERAL----------------------*/
   
-  .container-text {
+/*   .container-text {
     display: flex;
     color: white;
     margin: 3.2rem;
     font-size: 2rem;
-  }
+  } */
   
   /*------------------FIN TEXTO GENERAL----------------------*/
   
@@ -152,7 +167,7 @@
   
   /*PREPARACION DE HERO Y TEXTO PRINCIPAL*/
   
-  #hero {
+/*   #hero {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -181,6 +196,7 @@
   
   /*CONSEJOS*/
   
+  /*
   #container_consejo {
     display: flex;
     justify-content: center;
@@ -241,7 +257,7 @@
   }
   
   /*FORMULARIO*/
-  
+  /*
   #container-formulario {
     display: flex;
   }
@@ -264,14 +280,17 @@
   .espacio {
     padding-left: 1.6rem;
   }
+   */
   
   /*------------------FIN PREPARARCION DE PAGINA PRINCIPAL----------------------*/
   
-  /*------------------INICIO PREPARARCION DE REGLAMENTARIAS----------------------*/
+/*  /*------------------INICIO PREPARARCION DE REGLAMENTARIAS----------------------*/
   
   /*TITULO PRINCIPAL*/
   
-  /* .container-titulo-reg */ h1 {
+  /* .container-titulo-reg */ 
+  /*
+  h1 {
     color: white;
     font-weight: bold;
     font-size: 4rem;
@@ -285,14 +304,14 @@
   .colorRojo {
     color: red;
     font-weight: bold;
-  }
+  } */ 
   
   /*TEXTO DESCRIPTIVO*/
   
   
   /*CONTENEDOR IMAGEN*/
   
-  .container_img-img img{
+/*   .container_img-img img{
     background-color: white;
     border: 1px solid black;
     width: 100px;
@@ -310,7 +329,7 @@
     display: flex;
     flex-wrap: wrap;
     
-  }
+  } */
   
   /*------------------FIN PREPARARCION DE REGLAMENTARIAS----------------------*/
   
@@ -318,7 +337,8 @@
   
   /*TITULO PRINCIPAL*/
   
-  /* .container-titulo-pre */ h1 {
+  /* .container-titulo-pre */ 
+/*   h1 {
     color: white;
     font-weight: bold;
     font-size: 4rem;
@@ -332,17 +352,17 @@
     color: yellow;
     font-weight: bold;
   }
-  
+   */
   /*TEXTO DESCRIPTIVO*/
   
   
   /*CONTENEDOR IMAGEN*/
   
-  .container_img-pre {
+ /*  .container_img-pre {
     display: flex;
     margin-top: 3.2rem;
   }
-  
+   */
   
   /*------------------FIN PREPARARCION DE PREVENTIVAS----------------------*/
   
@@ -350,7 +370,8 @@
   
   /*TITULO PRINCIPAL*/
   
-  /* .container-titulo-inf */ h1 {
+  /* .container-titulo-inf */ 
+/*   h1 {
     color: white;
     font-weight: bold;
     font-size: 4rem;
@@ -363,18 +384,18 @@
   .colorVerde {
     color: greenyellow;
     font-weight: bold;
-  }
+  } */
   
   /*TEXTO DESCRIPTIVO*/
   
   
   /*CONTENEDOR IMAGEN*/
   
-  .container_img-inf {
+/*   .container_img-inf {
     display: flex;
     /* flex-direction: column; */ /* LE AGREGO EL COLUMN AUNQUE NO ESTE PEDIDO PARA QUE NO SE VEA TAN MAL*/
-    margin-top: 3.2rem;
-  }
+    /*margin-top: 3.2rem;
+  } */
   
   
   /*------------------FIN PREPARARCION DE INFORMATIVAS----------------------*/
@@ -383,7 +404,8 @@
   
   /*TITULO PRINCIPAL*/
   
-  /* .container-titulo-reco */ h1 {
+  /* .container-titulo-reco */ 
+/*   h1 {
     color: white;
     font-weight: bold;
     font-size: 4rem;
@@ -396,14 +418,14 @@
   .colorCyan {
     color: cyan;
     font-weight: bold;
-  }
+  } */
   
   /*TEXTO DESCRIPTIVO*/
   
   
   /*CONTENEDOR IMAGEN*/
   
-  .container_img-reco {
+/*   .container_img-reco {
     display: flex;
     margin: 3.2rem;
   }
@@ -422,13 +444,13 @@
     color: white;
     font-size: 3rem;
   }
-  
+   */
   /*------------------FIN PREPARARCION DE RECOMENDACIONES----------------------*/
   
   
   /* -------------------INICIO CSS GRID----------------------- */
   
-  .grid-padre{
+ /*  .grid-padre{
     display: grid;
     grid-template-areas: 
     "header"
@@ -453,9 +475,9 @@
     background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
     justify-content: center;
     
-  }
+  } */
   
-  @media(max-width:930px){
+  /* @media(max-width:930px){
     .grid-padre{
       grid-template-rows: auto auto 50px ;
     }
@@ -521,5 +543,5 @@
     }
   
   }
-  
+   */
   

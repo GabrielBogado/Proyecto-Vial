@@ -1,0 +1,119 @@
+/* INICIO INDEX */
+
+#hero {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../media/img-index/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  #hero h1 {
+    color: white;
+    font-size: 4.8rem;
+  }
+  
+  .amarilloHoy {
+    color: yellow;
+    display: inline;
+  }
+  
+  /*CONSEJOS*/
+  
+  #container_consejo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .consejo {
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 1.6rem;
+    font-size: 3rem;
+  }
+  
+  .moto {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../media/img-index/consejoCasco.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .noche {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../media/img-index/noche.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .niños {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../media/img-index/niños.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .consejo__bottom {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  /*FORMULARIO*/
+  
+  #container-formulario {
+    display: flex;
+  }
+  
+  legend {
+    font-size: 1.5rem;
+    color: yellow;
+  }
+  
+  .formulario input {
+    line-height: 1.5;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  textarea{
+    font-size: 1.5rem;
+  }
+  
+  .espacio {
+    padding-left: 1.6rem;
+  }
+
+  /* FIN DE INDEX */
+
+
+  

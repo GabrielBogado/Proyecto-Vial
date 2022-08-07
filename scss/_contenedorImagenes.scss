@@ -1,0 +1,65 @@
+/* INICIO CONTENEDORES DE IMAGENES */
+
+/* IMAGENES REGLAMENTARIAS */
+
+.container_img-img img{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    margin: 1rem;
+    border-radius: 15px;
+  }
+  
+  .container_img-reg {
+    display: flex;
+    margin-top: 3.2rem;
+    
+  }
+  
+  .container_img-img{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  /* IMAGENES PREVENTIVAS */
+
+  .container_img-pre {
+    display: flex;
+    margin-top: 3.2rem;
+  }
+  
+  /* IMAGENES INFORMATIVAS */
+
+  .container_img-inf {
+    display: flex;
+    margin-top: 3.2rem;
+  }
+
+  /* IMAGENES RECOMENDARIAS */
+
+  .container_img-reco {
+    display: flex;
+    margin: 3.2rem;
+  }
+  .img-consejo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-consejo img{
+   width: 70%;
+   height: 340px;
+   padding-top: 2rem;
+  }
+  .img-consejo h3{
+    color: white;
+    font-size: 3rem;
+  }
+  
+
+  /* FIN CONTENEDORES DE IMAGENES */
+
+
+  
