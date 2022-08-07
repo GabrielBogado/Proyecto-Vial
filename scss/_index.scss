@@ -15,12 +15,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    h1 {
+      color: white;
+      font-size: 4.8rem;
+    }
   }
   
-  #hero h1 {
-    color: white;
-    font-size: 4.8rem;
-  }
+
   
   .amarilloHoy {
     color: yellow;

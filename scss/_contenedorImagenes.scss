@@ -48,16 +48,18 @@
     justify-content: center;
     align-items: center;
   }
-  .img-consejo img{
-   width: 70%;
-   height: 340px;
-   padding-top: 2rem;
+  .img-consejo{
+    img{
+     width: 70%;
+     height: 340px;
+     padding-top: 2rem;
   }
-  .img-consejo h3{
-    color: white;
-    font-size: 3rem;
+    h3{
+      color: white;
+      font-size: 3rem;
   }
-  
+}
+ 
 
   /* FIN CONTENEDORES DE IMAGENES */
 
