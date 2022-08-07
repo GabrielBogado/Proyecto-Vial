@@ -1,10 +1,9 @@
 {
   "name": "proyecto-con-grid",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/GabrielBogado/Proyecto-Vial/issues"
   },
-  "homepage": "https://github.com/GabrielBogado/Proyecto-Vial#readme"
+  "homepage": "https://github.com/GabrielBogado/Proyecto-Vial#readme",
+  "description": ""
 }

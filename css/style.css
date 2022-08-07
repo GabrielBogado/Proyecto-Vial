@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -10,12 +11,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/background/pruebaback.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/background/pruebaback.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,9 +25,7 @@ body {
 }
 
 /*------------------INICIO NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
-
 /*PREPARACION DE NAVEGACION Y LOGO*/
-
 header {
   background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
   position: sticky;
@@ -53,27 +47,42 @@ header {
   color: yellow;
 }
 
-.container_list {
+/*   .container_list {
+    list-style: none;
+    display: flex;
+    margin: 2.4rem 2.8rem;
+
+  } */
+/*   ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  ul li a:hover {
+    color: yellow;
+  }
+
+  ul li {
+    margin-left: 1rem;
+  } */
+ul {
   list-style: none;
   display: flex;
   margin: 2.4rem 2.8rem;
-  
 }
-
+ul li {
+  margin-left: 1rem;
+}
 ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.6rem;
   font-weight: bold;
 }
-
-
 ul li a:hover {
   color: yellow;
-}
-
-ul li {
-  margin-left: 1rem;
 }
 
 .row {
@@ -83,8 +92,7 @@ ul li {
 }
 
 /*FOOTER*/
-
-footer{
+footer {
   margin-top: 10px;
 }
 
@@ -93,7 +101,6 @@ footer{
   height: 100%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .footer__logo .logo_p {
@@ -103,6 +110,11 @@ footer{
   text-shadow: 0 5px 10px black;
 }
 
+/*   .relleno p {
+    color: white;
+    font-size: 1.6rem;
+    padding-right: 1.6rem;
+  } */
 .relleno p {
   color: white;
   font-size: 1.6rem;
@@ -110,11 +122,7 @@ footer{
 }
 
 /*------------------FIN NAVEGACION LOGO Y FOOTER GENERAL----------------------*/
-
-
 /*------------------INICIO TEXTO GENERAL----------------------*/
-
-
 .container-text {
   display: flex;
   color: white;
@@ -122,26 +130,16 @@ footer{
   font-size: 2rem;
 }
 
-
 /*------------------FIN TEXTO GENERAL----------------------*/
-
-
 /*------------------INICIO PREPARARCION DE PAGINA PRINCIPAL----------------------*/
-
 /*PREPARACION DE HERO Y TEXTO PRINCIPAL*/
-
 #hero {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
   height: 90vh;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/hero.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -158,7 +156,6 @@ footer{
 }
 
 /*CONSEJOS*/
-
 #container_consejo {
   display: flex;
   justify-content: center;
@@ -178,36 +175,21 @@ footer{
 }
 
 .moto {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/consejoCasco.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/consejoCasco.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .noche {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/noche.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/noche.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .niños {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../media/img-index/niños.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/niños.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,11 +201,9 @@ footer{
 }
 
 /*FORMULARIO*/
-
 #container-formulario {
   display: flex;
 }
-
 
 legend {
   font-size: 1.5rem;
@@ -236,7 +216,7 @@ legend {
   font-size: 1.5rem;
 }
 
-textarea{
+textarea {
   font-size: 1.5rem;
 }
 
@@ -244,14 +224,11 @@ textarea{
   padding-left: 1.6rem;
 }
 
-
 /*------------------FIN PREPARARCION DE PAGINA PRINCIPAL----------------------*/
-
 /*------------------INICIO PREPARARCION DE REGLAMENTARIAS----------------------*/
-
 /*TITULO PRINCIPAL*/
-
-/* .container-titulo-reg */ h1 {
+/* .container-titulo-reg */
+h1 {
   color: white;
   font-weight: bold;
   font-size: 4rem;
@@ -268,12 +245,8 @@ textarea{
 }
 
 /*TEXTO DESCRIPTIVO*/
-
-
-
 /*CONTENEDOR IMAGEN*/
-
-.container_img-img img{
+.container_img-img img {
   background-color: white;
   border: 1px solid black;
   width: 100px;
@@ -284,22 +257,18 @@ textarea{
 .container_img-reg {
   display: flex;
   margin-top: 3.2rem;
-  
 }
 
-.container_img-img{
+.container_img-img {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 /*------------------FIN PREPARARCION DE REGLAMENTARIAS----------------------*/
-
 /*------------------INICIO PREPARARCION DE PREVENTIVAS----------------------*/
-
 /*TITULO PRINCIPAL*/
-
-/* .container-titulo-pre */ h1 {
+/* .container-titulo-pre */
+h1 {
   color: white;
   font-weight: bold;
   font-size: 4rem;
@@ -309,31 +278,24 @@ textarea{
   display: flex;
   margin: 3.2rem;
 }
+
 .colorAmarillo {
   color: yellow;
   font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
-
-
-
 /*CONTENEDOR IMAGEN*/
-
 .container_img-pre {
   display: flex;
   margin-top: 3.2rem;
 }
 
-
-
 /*------------------FIN PREPARARCION DE PREVENTIVAS----------------------*/
-
 /*------------------INICIO PREPARARCION DE INFORMATIVAS----------------------*/
-
 /*TITULO PRINCIPAL*/
-
-/* .container-titulo-inf */ h1 {
+/* .container-titulo-inf */
+h1 {
   color: white;
   font-weight: bold;
   font-size: 4rem;
@@ -343,32 +305,25 @@ textarea{
   display: flex;
   margin: 3.2rem;
 }
+
 .colorVerde {
   color: greenyellow;
   font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
-
-
-
 /*CONTENEDOR IMAGEN*/
-
 .container_img-inf {
   display: flex;
   /* flex-direction: column; */ /* LE AGREGO EL COLUMN AUNQUE NO ESTE PEDIDO PARA QUE NO SE VEA TAN MAL*/
   margin-top: 3.2rem;
 }
 
-
-
 /*------------------FIN PREPARARCION DE INFORMATIVAS----------------------*/
-
 /*------------------INICIO PREPARARCION DE RECOMENDACIONES----------------------*/
-
 /*TITULO PRINCIPAL*/
-
-/* .container-titulo-reco */ h1 {
+/* .container-titulo-reco */
+h1 {
   color: white;
   font-weight: bold;
   font-size: 4rem;
@@ -378,135 +333,113 @@ textarea{
   display: flex;
   margin: 3.2rem;
 }
+
 .colorCyan {
   color: cyan;
   font-weight: bold;
 }
 
 /*TEXTO DESCRIPTIVO*/
-
-
-
 /*CONTENEDOR IMAGEN*/
-
 .container_img-reco {
   display: flex;
   margin: 3.2rem;
 }
-.img-consejo{
+
+.img-consejo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.img-consejo img{
- width: 70%;
- height: 340px;
- padding-top: 2rem;
+
+.img-consejo img {
+  width: 70%;
+  height: 340px;
+  padding-top: 2rem;
 }
-.img-consejo h3{
+
+.img-consejo h3 {
   color: white;
   font-size: 3rem;
 }
 
-
 /*------------------FIN PREPARARCION DE RECOMENDACIONES----------------------*/
-
-
-
 /* -------------------INICIO CSS GRID----------------------- */
-
-.grid-padre{
+.grid-padre {
   display: grid;
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer"
-  ;
+  grid-template-areas: "header" "main" "footer";
   grid-template-rows: 60px auto 50px;
   grid-template-columns: auto;
   height: auto;
 }
 
-header{
+header {
   grid-area: header;
 }
 
-main{
+main {
   grid-area: main;
 }
 
-footer{
+footer {
   grid-area: footer;
   background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
   justify-content: center;
-  
 }
 
-@media(max-width:930px){
-  .grid-padre{
-    grid-template-rows: auto auto 50px ;
+@media (max-width: 930px) {
+  .grid-padre {
+    grid-template-rows: auto auto 50px;
   }
-  header{
+  header {
     position: inherit;
   }
-
-  ul li{
+  ul li {
     margin-top: 10px;
   }
-
-  .container_list{
+  .container_list {
     display: block;
   }
-
-
-  .row .logo_p{
+  .row .logo_p {
     display: block;
     padding: 0;
     align-self: center;
   }
-  
-  .row{
+  .row {
     display: flex;
     justify-content: space-evenly;
-
   }
-
-  .consejo{
+  .consejo {
     font-size: 2rem;
   }
-
-  .container{
+  .container {
     width: 90%;
   }
-
-  .img-consejo img{
+  .img-consejo img {
     width: 100%;
     height: auto;
   }
-
-  .texto-lluvia h3{
+  .texto-lluvia h3 {
     font-size: 2rem;
     font-weight: bold;
   }
-
-  .formulario input{
+  .formulario input {
     margin-bottom: 10px;
     font-size: 1.6rem;
   }
-  textarea{
+  textarea {
     font-size: 1.6rem;
   }
 }
-
-@media (max-width:500px){
-  
-  .row{
+@media (max-width: 500px) {
+  .row {
     padding-top: 1rem;
     display: block;
   }
-  h1{
+  h1 {
     font-size: 3rem;
   }
-
 }
+
+/*# sourceMappingURL=style.css.map */
