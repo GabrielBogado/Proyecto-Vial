@@ -93,26 +93,36 @@
   
   #container-formulario {
     display: flex;
+    width: 80%;
+    margin: auto;
+    
   }
   
   legend {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
     color: yellow;
+    margin: auto;
   }
   
   .formulario input {
     line-height: 1.5;
     margin-top: 1rem;
     font-size: 1.5rem;
+    width: 100%;
+    border-radius: 10px;
   }
   
+
   textarea{
     font-size: 1.5rem;
+    width: 100%;
+    border-radius: 10px;
   }
   
-  .espacio {
+  /* .espacio {
     padding-left: 1.6rem;
-  }
+  } */
 
   /* FIN DE INDEX */
 

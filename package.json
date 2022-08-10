@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/style.scss css/style.css"
+    "compile:sass": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
     "url": "https://github.com/GabrielBogado/Proyecto-Vial/issues"
   },
   "homepage": "https://github.com/GabrielBogado/Proyecto-Vial#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
