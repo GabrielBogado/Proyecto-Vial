@@ -19,9 +19,7 @@
       ),
       url(../media/background/pruebaback.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    @include backgroun-centrado;
   }
   
   .container {

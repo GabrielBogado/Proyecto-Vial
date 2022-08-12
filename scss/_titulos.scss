@@ -4,9 +4,7 @@
   
   /* .container-titulo-reg */ 
   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include tituloColor-size;
   }
   
   .container-titulo-reg {
@@ -26,9 +24,7 @@
   
   /* .container-titulo-pre */ 
   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include tituloColor-size;
   }
   
   .container-titulo-pre {
@@ -46,9 +42,7 @@
   
   /* .container-titulo-inf */ 
   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include tituloColor-size;
   }
   
   .container-titulo-inf {
@@ -67,9 +61,7 @@
   
   /* .container-titulo-reco */ 
   h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include tituloColor-size;
   }
   
   .container-titulo-reco {

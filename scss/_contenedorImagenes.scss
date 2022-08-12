@@ -11,8 +11,7 @@
   }
   
   .container_img-reg {
-    display: flex;
-    margin-top: 3.2rem;
+    @include flex-margin;
     
   }
   
@@ -25,15 +24,13 @@
   /* IMAGENES PREVENTIVAS */
 
   .container_img-pre {
-    display: flex;
-    margin-top: 3.2rem;
+    @include flex-margin;
   }
   
   /* IMAGENES INFORMATIVAS */
 
   .container_img-inf {
-    display: flex;
-    margin-top: 3.2rem;
+    @include flex-margin;
   }
 
   /* IMAGENES RECOMENDARIAS */
