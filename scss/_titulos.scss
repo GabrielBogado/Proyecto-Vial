@@ -28,8 +28,9 @@
   }
   
   .container-titulo-pre {
-    display: flex;
-    margin: 3.2rem;
+    @extend .container-titulo-reg ;
+    /* display: flex;
+    margin: 3.2rem; */
   }
   .colorAmarillo {
     color: yellow;
@@ -46,8 +47,9 @@
   }
   
   .container-titulo-inf {
-    display: flex;
-    margin: 3.2rem;
+    @extend .container-titulo-reg ;
+    /* display: flex;
+    margin: 3.2rem; */
   }
   .colorVerde {
     color: greenyellow;
@@ -65,8 +67,9 @@
   }
   
   .container-titulo-reco {
-    display: flex;
-    margin: 3.2rem;
+    @extend .container-titulo-reg ;
+    /* display: flex;
+    margin: 3.2rem; */
   }
   .colorCyan {
     color: cyan;

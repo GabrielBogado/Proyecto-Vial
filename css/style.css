@@ -68,7 +68,7 @@ body {
 }
 
 /*CONSEJOS*/
-#container_consejo {
+#container_consejo, .consejo {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -77,10 +77,10 @@ body {
 .consejo {
   height: 70vh;
   width: 90%;
-  display: flex;
+  /* display: flex; */
   text-align: center;
-  justify-content: center;
-  flex-direction: column;
+  /* justify-content: center; */
+  /* flex-direction: column; */
   color: white;
   margin: 1.6rem;
   font-size: 3rem;
@@ -190,7 +190,7 @@ h1 {
   font-size: 4rem;
 }
 
-.container-titulo-reg {
+.container-titulo-reg, .container-titulo-reco, .container-titulo-inf, .container-titulo-pre {
   display: flex;
   margin: 3.2rem;
 }
@@ -210,8 +210,8 @@ h1 {
 }
 
 .container-titulo-pre {
-  display: flex;
-  margin: 3.2rem;
+  /* display: flex;
+  margin: 3.2rem; */
 }
 
 .colorAmarillo {
@@ -229,8 +229,8 @@ h1 {
 }
 
 .container-titulo-inf {
-  display: flex;
-  margin: 3.2rem;
+  /* display: flex;
+  margin: 3.2rem; */
 }
 
 .colorVerde {
@@ -248,8 +248,8 @@ h1 {
 }
 
 .container-titulo-reco {
-  display: flex;
-  margin: 3.2rem;
+  /* display: flex;
+  margin: 3.2rem; */
 }
 
 .colorCyan {
