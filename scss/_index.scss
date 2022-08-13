@@ -96,17 +96,22 @@
     font-weight: bold;
     color: yellow;
     margin: auto;
+    &:hover{
+      color: yellowgreen;
+    }
   }
   
   .formulario input {
     line-height: 1.5;
     margin-top: 1rem;
     @include fontSize-width-radius;
+    padding-left: 10px
   }
   
 
   textarea{
     @include fontSize-width-radius;
+    padding-left: 10px
   }
   
   /* .espacio {
