@@ -1,20 +1,22 @@
 @mixin fontSize-width-radius {
     font-size: 1.5rem;
     width: 100%;
+    border-radius: 10px;
     
 }
 
 @mixin backgroun-centrado {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: map-get($estiloBackCentrado, bPosition );
+    background-repeat: map-get($estiloBackCentrado, bRepeat);
+    background-size: map-get($estiloBackCentrado, bSize);
+    border-radius: 15px;
     
 }
 
 @mixin tituloColor-size {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    color: map-get($estiloTitulo, color);
+    font-weight: map-get($estiloTitulo, fWeigth);
+    font-size: map-get($estiloTitulo, fSize);
 }
 
 @mixin flex-margin {

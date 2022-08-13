@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/* ----------------- AGREGANDO @IMPORT ----------------*/ /* INICIO DE GLOBAL */
+/* ----------------- AGREGANDO @IMPORT ----------------*/ /* Agregando Variable */
+/* Agregando Maps */
+/* INICIO DE GLOBAL */
 * {
   padding: 0;
   margin: 0;
@@ -14,9 +16,10 @@ html {
 body {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/background/pruebaback.jpg);
   background-attachment: fixed;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  border-radius: 15px;
 }
 
 .container {
@@ -41,6 +44,109 @@ body {
 }
 
 /* FIN ESTILO LOGO */
+/* INICIO INDEX */
+#hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#hero h1 {
+  color: white;
+  font-size: 4.8rem;
+}
+
+.amarilloHoy {
+  color: yellow;
+  display: inline;
+}
+
+/*CONSEJOS*/
+#container_consejo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.consejo {
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: 1.6rem;
+  font-size: 3rem;
+}
+
+.moto {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/consejoCasco.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.noche {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/noche.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.niños {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/niños.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.consejo__bottom {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/*FORMULARIO*/
+#container-formulario {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+  color: yellow;
+  margin: auto;
+}
+
+.formulario input {
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+textarea {
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* .espacio {
+  padding-left: 1.6rem;
+} */
+/* FIN DE INDEX */
 /* INICIO DE NAVBAR */
 header {
   background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
@@ -75,32 +181,6 @@ ul li a:hover {
 }
 
 /* FIN DE NAVBAR */
-/* INICO FOOTER */
-footer {
-  background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
-  margin-top: 10px;
-}
-footer .container_footer {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer__logo .logo_p {
-  color: white;
-  font-size: 1.6rem;
-  font-weight: bold;
-  text-shadow: 0 5px 10px black;
-}
-
-.relleno p {
-  color: white;
-  font-size: 1.6rem;
-  padding-right: 1.6rem;
-}
-
-/* FIN FOOTER */
 /* INICIO DE TITULOS */
 /*TITULO PRINCIPAL*/
 /* .container-titulo-reg */
@@ -187,105 +267,6 @@ h1 {
 }
 
 /* FIN CONTENEDORES TEXTO */
-/* INICIO INDEX */
-#hero {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 90vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-#hero h1 {
-  color: white;
-  font-size: 4.8rem;
-}
-
-.amarilloHoy {
-  color: yellow;
-  display: inline;
-}
-
-/*CONSEJOS*/
-#container_consejo {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.consejo {
-  height: 70vh;
-  width: 90%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  color: white;
-  margin: 1.6rem;
-  font-size: 3rem;
-}
-
-.moto {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/consejoCasco.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.noche {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/noche.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.niños {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/img-index/niños.jpg);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.consejo__bottom {
-  font-size: 1.6rem;
-  font-weight: bold;
-}
-
-/*FORMULARIO*/
-#container-formulario {
-  display: flex;
-  width: 80%;
-  margin: auto;
-}
-
-legend {
-  font-size: 2rem;
-  font-weight: bold;
-  color: yellow;
-  margin: auto;
-}
-
-.formulario input {
-  line-height: 1.5;
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  width: 100%;
-  border-radius: 10px;
-}
-
-textarea {
-  font-size: 1.5rem;
-  width: 100%;
-  border-radius: 10px;
-}
-
-/* .espacio {
-  padding-left: 1.6rem;
-} */
-/* FIN DE INDEX */
 /* INICIO CONTENEDORES DE IMAGENES */
 /* IMAGENES REGLAMENTARIAS */
 .container_img-img img {
@@ -342,6 +323,32 @@ textarea {
 }
 
 /* FIN CONTENEDORES DE IMAGENES */
+/* INICO FOOTER */
+footer {
+  background: linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
+  margin-top: 10px;
+}
+footer .container_footer {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo .logo_p {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 0 5px 10px black;
+}
+
+.relleno p {
+  color: white;
+  font-size: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+/* FIN FOOTER */
 /* INICIO DE GRID */
 .grid-padre {
   display: grid;

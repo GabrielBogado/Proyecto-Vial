@@ -1,1 +1,18 @@
+/* Agregando Variable */
 $gradient-right-header-footer:linear-gradient(to right, rgb(121, 117, 117), rgb(56, 56, 56));
+
+
+
+/* Agregando Maps */
+$estiloTitulo:(
+    color: white,
+    fWeigth: bold,
+    fSize: 4rem
+);
+
+
+$estiloBackCentrado:(
+    bPosition: center center,
+    bRepeat: no-repeat,
+    bSize: cover
+);
