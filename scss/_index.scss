@@ -37,10 +37,7 @@
   .consejo {
     height: 70vh;
     width: 90%;
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center; */
-    /* flex-direction: column; */
     color: white;
     margin: 1.6rem;
     font-size: 3rem;
@@ -80,13 +77,22 @@
   .consejo__bottom {
     font-size: 1.6rem;
     font-weight: bold;
+    padding: .7rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+    &:hover{
+      background-color: greenyellow;
+      transition: .5s;
+      
+      
+    }
   }
   
   /*FORMULARIO*/
   
   #container-formulario {
     display: flex;
-    width: 80%;
+    width: 60%;
     margin: auto;
     
   }
@@ -103,20 +109,30 @@
   
   .formulario input {
     line-height: 1.5;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
     @include fontSize-width-radius;
-    padding-left: 10px
+    padding-left: 10px;
+  }
+
+  #nombre{
+    margin-top: 2rem;
   }
   
 
   textarea{
     @include fontSize-width-radius;
-    padding-left: 10px
+    padding-left: 10px;
+    margin-bottom: 2rem;
   }
-  
-  /* .espacio {
-    padding-left: 1.6rem;
-  } */
+
+  .enviar{
+    box-shadow: 0 5px 10px black;
+    font-weight: bold;
+    &:hover{
+      background-color: greenyellow;
+      transition: .7s;
+    }
+  }
 
   /* FIN DE INDEX */
 
