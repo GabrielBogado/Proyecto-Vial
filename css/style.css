@@ -136,6 +136,10 @@ legend:hover {
   color: yellowgreen;
 }
 
+.formulario {
+  min-width: 260px;
+  margin: auto;
+}
 .formulario input {
   line-height: 1.5;
   margin-bottom: 2rem;

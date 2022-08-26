@@ -107,12 +107,16 @@
     }
   }
   
-  .formulario input {
+  .formulario {
+  min-width: 260px;
+  margin: auto;
+  input {
     line-height: 1.5;
     margin-bottom: 2rem;
     @include fontSize-width-radius;
     padding-left: 10px;
   }
+}
 
   #nombre{
     margin-top: 2rem;
