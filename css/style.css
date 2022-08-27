@@ -305,6 +305,11 @@ h1 {
   border-radius: 15px;
   cursor: pointer;
 }
+.container_img-img img:active {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
 
 .container_img-reg {
   display: flex;
