@@ -308,7 +308,6 @@ h1 {
 .container_img-img img:active {
   width: 150px;
   height: 150px;
-  position: relative;
 }
 
 .container_img-reg {
