@@ -148,8 +148,7 @@ legend:hover {
   border-radius: 10px;
   padding-left: 10px;
 }
-
-#nombre {
+.formulario #nombre {
   margin-top: 2rem;
 }
 
@@ -159,6 +158,7 @@ textarea {
   border-radius: 10px;
   padding-left: 10px;
   margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .enviar {

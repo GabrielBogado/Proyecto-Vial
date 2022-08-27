@@ -116,17 +116,19 @@
     @include fontSize-width-radius;
     padding-left: 10px;
   }
-}
-
   #nombre{
     margin-top: 2rem;
   }
+}
+
+  
   
 
   textarea{
     @include fontSize-width-radius;
     padding-left: 10px;
     margin-bottom: 2rem;
+    line-height: 1.5;
   }
 
   .enviar{
