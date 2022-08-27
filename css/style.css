@@ -293,22 +293,22 @@ h1 {
 /* FIN CONTENEDORES TEXTO */
 /* INICIO CONTENEDORES DE IMAGENES */
 /* IMAGENES REGLAMENTARIAS */
+.container_img-img {
+  display: flex;
+  flex-wrap: wrap;
+}
 .container_img-img img {
   background-color: white;
   border: 1px solid black;
   width: 100px;
   margin: 1rem;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .container_img-reg {
   display: flex;
   margin-top: 3.2rem;
-}
-
-.container_img-img {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* IMAGENES PREVENTIVAS */
